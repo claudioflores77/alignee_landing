@@ -1,12 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Hero } from "@/components/sections/Hero";
+import { ForYou } from "@/components/sections/ForYou";
+import { ProgramOverview } from "@/components/sections/ProgramOverview";
+import { WeeklyProgram } from "@/components/sections/WeeklyProgram";
+import { About } from "@/components/sections/About";
+import { Approach } from "@/components/sections/Approach";
+import { Testimonials } from "@/components/sections/Testimonials";
+import { Pricing } from "@/components/sections/Pricing";
+import { Contact } from "@/components/sections/Contact";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Hero />
+      <ForYou />
+      <ProgramOverview />
+      <WeeklyProgram />
+      <About />
+      <Approach />
+      <Testimonials />
+      <Pricing />
+      <Contact />
+      
+      <footer className="bg-foreground/5 py-12 text-center">
+        <div className="container px-6">
+          <p className="text-5xl font-serif text-primary mb-4">ALIGNÉE</p>
+          <p className="text-muted-foreground italic">
+            deviens enfin vraiment toi
+          </p>
+          <p className="text-sm text-muted-foreground mt-8">
+            © 2025 ONDALUZ · Tous droits réservés
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
