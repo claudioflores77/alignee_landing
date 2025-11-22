@@ -1,3 +1,5 @@
+import rimaPhoto from "@/assets/rima-photo.jpg";
+
 export const About = () => {
   return (
     <section className="py-24 bg-background">
@@ -7,7 +9,12 @@ export const About = () => {
         </h2>
 
         <div className="space-y-12">
-          <div className="text-center space-y-4">
+          <div className="flex flex-col items-center space-y-6">
+            <img 
+              src={rimaPhoto} 
+              alt="Rima - Coach et accompagnatrice" 
+              className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-primary/20"
+            />
             <p className="text-2xl font-serif text-primary">
               Je m'appelle Rima
             </p>
