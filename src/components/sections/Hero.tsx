@@ -2,24 +2,19 @@ import dancer1 from "@/assets/dancer-1.jpg";
 import dancer2 from "@/assets/dancer-2.jpg";
 import dancer3 from "@/assets/dancer-3.jpg";
 import { Button } from "@/components/ui/button";
-
 export const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#968B7E]">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#968B7E]">
       {/* Image Grid Background */}
       <div className="absolute inset-0 grid grid-cols-3 gap-0 opacity-60">
-        <div 
-          className="bg-cover bg-center"
-          style={{ backgroundImage: `url(${dancer1})` }}
-        ></div>
-        <div 
-          className="bg-cover bg-center"
-          style={{ backgroundImage: `url(${dancer2})` }}
-        ></div>
-        <div 
-          className="bg-cover bg-center"
-          style={{ backgroundImage: `url(${dancer3})` }}
-        ></div>
+        <div className="bg-cover bg-center" style={{
+        backgroundImage: `url(${dancer1})`
+      }}></div>
+        <div className="bg-cover bg-center" style={{
+        backgroundImage: `url(${dancer2})`
+      }}></div>
+        <div className="bg-cover bg-center" style={{
+        backgroundImage: `url(${dancer3})`
+      }}></div>
       </div>
       
       {/* Overlay */}
@@ -31,11 +26,10 @@ export const Hero = () => {
           <h1 className="text-7xl md:text-8xl lg:text-9xl font-serif text-white font-bold tracking-wider">
             ALIGNÉE
           </h1>
-          <h1 className="absolute inset-0 text-7xl md:text-8xl lg:text-9xl font-serif text-transparent font-bold tracking-wider"
-              style={{ 
-                WebkitTextStroke: '2px rgba(255, 255, 255, 0.4)',
-                transform: 'translateY(-8px)'
-              }}>
+          <h1 className="absolute inset-0 text-7xl md:text-8xl lg:text-9xl font-serif text-transparent font-bold tracking-wider" style={{
+          WebkitTextStroke: '2px rgba(255, 255, 255, 0.4)',
+          transform: 'translateY(-8px)'
+        }}>
             ALIGNÉE
           </h1>
         </div>
@@ -55,7 +49,7 @@ export const Hero = () => {
               <span className="text-white/80 uppercase tracking-wide">semaines</span>
             </div>
             <div className="flex flex-col items-center">
-              <span className="text-5xl font-serif text-white">1</span>
+              <span className="text-5xl font-serif text-white">10</span>
               <span className="text-white/80 uppercase tracking-wide">séances</span>
             </div>
             <div className="flex flex-col items-center">
@@ -65,11 +59,7 @@ export const Hero = () => {
           </div>
 
           <div className="pt-8 space-y-4">
-            <Button 
-              size="lg" 
-              className="bg-white hover:bg-white/90 text-taupe px-12 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-              asChild
-            >
+            <Button size="lg" className="bg-white hover:bg-white/90 text-taupe px-12 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300" asChild>
               <a href="#contact">Réserve ta première séance gratuite</a>
             </Button>
             
@@ -83,6 +73,5 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
