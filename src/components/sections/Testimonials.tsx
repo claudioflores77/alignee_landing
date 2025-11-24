@@ -1,17 +1,17 @@
 export const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Superbe expérience - très heureuse d'avoir sauté le pas, d'avoir pu parler librement de ma problématique et d'être ressortie de ce coaching avec des clefs et une vision plus claire.",
+      quote: "Superbe expérience - très heureuse d’avoir sauté le pas, d’avoir pu parler librement de ma problématique et d’être ressortie de ce coaching avec des clefs et une vision plus claire. Cette manière d’amener à trouver soit même les réponses à ses questions en guidant la conversation, faire émerger des outils simples mais efficaces pour répondre à ma problématique.",
       author: "Laurie, 33 ans",
       role: "Cadre & Jeune Maman",
     },
     {
-      quote: "C'est un accompagnement qui permet de sortir de sa zone de confort. De se poser les bonnes questions. Tout ça, dans un cadre bienveillant. [Cela me redonne] Sérénité. Alignement. Envie de progresser professionnellement.",
+      quote: "[Les points forts de ce coaching sont] la qualité d'écoute, la reformulation et l'intégration des optiques/enjeux/actions applicables à d'autres sujets que ceux posés. La qualité des outils proposés et la formalisation de la démarche. [C’est une] confirmation de l'intérêt du coaching comme pratique de vie à intégrer.",
       author: "Marion, 51 ans",
       role: "Cadre & Maman",
     },
     {
-      quote: "[Les points forts de ce coaching sont] la qualité d'écoute, la reformulation et l'intégration des optiques/enjeux/actions applicables à d'autres sujets que ceux posés. La qualité des outils proposés et la formalisation de la démarche.",
+      quote: "C'est un accompagnement qui permet de sortir de sa zone de confort. De se poser les bonnes questions. Tout ça, dans un cadre bienveillant. [Cela me redonne] Sérénité. Alignement. Envie de progresser professionnellement. Tu sais t'adapter à tes clients. Et tu sais aussi les pousser gentiment en dehors de la zone de confort. ;)",
       author: "N., 45 ans",
       role: "Cadre & Maman",
     },
