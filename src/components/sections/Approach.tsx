@@ -1,7 +1,22 @@
+import dancer2 from "@/assets/dancer-2.jpg";
+
 export const Approach = () => {
   return (
-    <section className="py-24 bg-gradient-to-b from-background to-accent">
-      <div className="container px-6 max-w-6xl mx-auto">
+    <section className="relative py-24 overflow-hidden">
+      {/* Background dancer image */}
+      <div 
+        className="absolute inset-0 opacity-20"
+        style={{
+          backgroundImage: `url(${dancer2})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+      
+      {/* Overlay gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-accent/95" />
+      
+      <div className="container px-6 max-w-6xl mx-auto relative z-10">
         <h2 className="text-4xl md:text-5xl font-serif text-center mb-16 text-foreground">
           Mon approche unique mêlant<br />
           <span className="text-primary">coaching mental et somatique</span>
