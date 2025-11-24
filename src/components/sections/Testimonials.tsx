@@ -1,12 +1,12 @@
 export const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Superbe expérience - très heureuse d’avoir sauté le pas, d’avoir pu parler librement de ma problématique et d’être ressortie de ce coaching avec des clefs et une vision plus claire. Cette manière d’amener à trouver soit même les réponses à ses questions en guidant la conversation, faire émerger des outils simples mais efficaces pour répondre à ma problématique.",
+      quote: "Superbe expérience - très heureuse d'avoir sauté le pas, d'avoir pu parler librement de ma problématique et d'être ressortie de ce coaching avec des clefs et une vision plus claire. Cette manière d'amener à trouver soit même les réponses à ses questions en guidant la conversation, faire émerger des outils simples mais efficaces pour répondre à ma problématique.",
       author: "Laurie, 33 ans",
       role: "Cadre & Jeune Maman",
     },
     {
-      quote: "[Les points forts de ce coaching sont] la qualité d'écoute, la reformulation et l'intégration des optiques/enjeux/actions applicables à d'autres sujets que ceux posés. La qualité des outils proposés et la formalisation de la démarche. [C’est une] confirmation de l'intérêt du coaching comme pratique de vie à intégrer.",
+      quote: "Les points forts de ce coaching sont la qualité d'écoute, la reformulation et l'intégration des optiques/enjeux/actions applicables à d'autres sujets que ceux posés. La qualité des outils proposés et la formalisation de la démarche. C'est une confirmation de l'intérêt du coaching comme pratique de vie à intégrer.",
       author: "Marion, 51 ans",
       role: "Cadre & Maman",
     },
