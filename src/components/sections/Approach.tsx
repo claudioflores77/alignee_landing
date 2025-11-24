@@ -5,7 +5,7 @@ export const Approach = () => {
     <section className="relative py-24 overflow-hidden">
       {/* Background dancer image */}
       <div 
-        className="absolute inset-0 opacity-30"
+        className="absolute inset-0 opacity-50"
         style={{
           backgroundImage: `url(${rimaDancing})`,
           backgroundSize: 'cover',
@@ -14,7 +14,7 @@ export const Approach = () => {
       />
       
       {/* Overlay gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-accent/95" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/60 to-background/80" />
       
       <div className="container px-6 max-w-6xl mx-auto relative z-10">
         <h2 className="text-4xl md:text-5xl font-serif text-center mb-16 text-foreground">
