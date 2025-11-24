@@ -1,13 +1,13 @@
-import dancer2 from "@/assets/dancer-2.jpg";
+import rimaDancing from "@/assets/rima-dancing.jpg";
 
 export const Approach = () => {
   return (
     <section className="relative py-24 overflow-hidden">
       {/* Background dancer image */}
       <div 
-        className="absolute inset-0 opacity-20"
+        className="absolute inset-0 opacity-30"
         style={{
-          backgroundImage: `url(${dancer2})`,
+          backgroundImage: `url(${rimaDancing})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
