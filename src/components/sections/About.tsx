@@ -36,7 +36,7 @@ export const About = () => {
             </p>
             
             <p className="leading-relaxed">
-              En 2025, j'ai décidé d'incarner ma mission de vie en devenant Coach certifiée et en créant ONDALUZ, une entreprise qui fusionne coaching mental, coaching somatique et expression artistique : Une approche unique, à la croisée de mes compétences et de ma personnalité authentique, dédiée à accompagner chaque personne à s'aligner intérieurement, incarner sa vérité d'abord, puis rayonner cette puissance dans sa vie quotidienne. <strong className="text-primary">ONDALUZ</strong>, une entreprise qui fusionne coaching mental, coaching somatique et expression artistique : Une approche unique, à la croisée de mes compétences et ma personnalité authentique, dédiée à aider chaque personne à s'aligner intérieurement, incarner sa vérité d'abord, puis rayonner cette puissance sur scène, devant la caméra et bien au-delà.
+              En 2025, j'ai décidé d'incarner ma mission de vie en devenant Coach certifiée et en créant ONDALUZ, une entreprise qui fusionne coaching mental, coaching somatique et expression artistique : Une approche unique, à la croisée de mes compétences et de ma personnalité authentique, dédiée à accompagner chaque personne à s'aligner intérieurement, incarner sa vérité d'abord, puis rayonner cette puissance dans sa vie quotidienne.
             </p>
             
             <p className="leading-relaxed">
