@@ -67,9 +67,7 @@ export const Hero = () => {
               Sans engagement · Première séance offerte · 5 places par mois
             </p>
             
-            <p className="text-sm text-white/70 italic">
-              5 femmes ont déjà testé et te partagent leur expérience
-            </p>
+            
           </div>
         </div>
       </div>

@@ -1,8 +1,6 @@
 import rimaPhoto from "@/assets/rima-photo.jpg";
-
 export const About = () => {
-  return (
-    <section className="py-24 bg-background">
+  return <section className="py-24 bg-background">
       <div className="container px-6 max-w-5xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-serif text-center mb-16 text-foreground">
           Qui suis-je pour t'accompagner ?
@@ -10,11 +8,7 @@ export const About = () => {
 
         <div className="space-y-12">
           <div className="flex flex-col items-center space-y-6">
-            <img 
-              src={rimaPhoto} 
-              alt="Rima - Coach et accompagnatrice" 
-              className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-primary/20"
-            />
+            <img src={rimaPhoto} alt="Rima - Coach et accompagnatrice" className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-primary/20" />
             <p className="text-2xl font-serif text-primary">
               Je m'appelle Rima
             </p>
@@ -42,7 +36,7 @@ export const About = () => {
             </p>
             
             <p className="leading-relaxed">
-              En 2025, j'ai décidé d'incarner ma mission de vie en devenant Coach certifiée et en créant <strong className="text-primary">ONDALUZ</strong>, une entreprise qui fusionne coaching mental, coaching somatique et expression artistique : Une approche unique, à la croisée de mes compétences et ma personnalité authentique, dédiée à aider chaque personne à s'aligner intérieurement, incarner sa vérité d'abord, puis rayonner cette puissance sur scène, devant la caméra et bien au-delà.
+              En 2025, j'ai décidé d'incarner ma mission de vie en devenant Coach certifiée et en créant ONDALUZ, une entreprise qui fusionne coaching mental, coaching somatique et expression artistique : Une approche unique, à la croisée de mes compétences et de ma personnalité authentique, dédiée à accompagner chaque personne à s'aligner intérieurement, incarner sa vérité d'abord, puis rayonner cette puissance dans sa vie quotidienne. <strong className="text-primary">ONDALUZ</strong>, une entreprise qui fusionne coaching mental, coaching somatique et expression artistique : Une approche unique, à la croisée de mes compétences et ma personnalité authentique, dédiée à aider chaque personne à s'aligner intérieurement, incarner sa vérité d'abord, puis rayonner cette puissance sur scène, devant la caméra et bien au-delà.
             </p>
             
             <p className="leading-relaxed">
@@ -55,6 +49,5 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
