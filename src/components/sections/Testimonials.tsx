@@ -11,7 +11,7 @@ export const Testimonials = () => {
       role: "Cadre & Maman",
     },
     {
-      quote: "C'est un accompagnement qui permet de sortir de sa zone de confort. De se poser les bonnes questions. Tout ça, dans un cadre bienveillant. [Cela me redonne] Sérénité. Alignement. Envie de progresser professionnellement. Tu sais t'adapter à tes clients. Et tu sais aussi les pousser gentiment en dehors de la zone de confort. ;)",
+      quote: "C'est un accompagnement qui permet de sortir de sa zone de confort. De se poser les bonnes questions. Tout ça, dans un cadre bienveillant. Cet accompagnement m'a permis de retrouver Sérénité. Alignement. et une Envie de progresser professionnellement. Tu sais t'adapter à tes clients. Et tu sais aussi les pousser gentiment en dehors de la zone de confort. ;)",
       author: "N., 45 ans",
       role: "Cadre & Maman",
     },
