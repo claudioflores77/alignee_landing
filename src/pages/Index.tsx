@@ -27,9 +27,14 @@ const Index = () => {
           <p className="text-muted-foreground italic">
             deviens enfin vraiment toi
           </p>
-          <p className="text-sm text-muted-foreground mt-8">
-            © 2025 ONDALUZ · Tous droits réservés
-          </p>
+          <div className="text-sm text-muted-foreground mt-8 space-y-3 max-w-2xl mx-auto">
+            <p>© 2025 ONDALUZ. Tous droits réservés.</p>
+            <p>Responsable du site : Rim EL IDRISSI MOKDAD</p>
+            <p>Hébergeur : Lovable Cloud via Lovable (lovable.app)</p>
+            <p>Les données collectées via ce site (formulaire, contact) sont utilisées uniquement pour répondre à vos demandes.</p>
+            <p>Vous disposez d'un droit d'accès, de rectification et de suppression : contactez-nous au mail ci-dessus.</p>
+            <p>Ce site utilise uniquement des cookies techniques nécessaires à son fonctionnement.</p>
+          </div>
         </div>
       </footer>
     </div>
