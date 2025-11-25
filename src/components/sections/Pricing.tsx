@@ -16,7 +16,7 @@ export const Pricing = () => {
               <p className="text-muted-foreground mb-4 line-through text-2xl">850€</p>
               <div className="space-y-2">
                 <p className="text-6xl md:text-7xl font-serif text-primary">425€</p>
-                <p className="text-xl text-foreground/70">Offre de lancement: -50% pour les premiéres participantes.</p>
+                <p className="text-xl text-foreground/70">Offre de lancement: -50% pour les premières participantes.</p>
                 <p className="text-lg text-primary font-medium">Valable jusqu'à épuisement des places.    </p>
               </div>
             </div>
