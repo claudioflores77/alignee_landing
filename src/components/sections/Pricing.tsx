@@ -78,7 +78,7 @@ export const Pricing = () => {
               <p>215€ à mi-parcours</p>
             </div>
             <p className="text-xs md:text-sm text-foreground/60 italic mt-3">
-              Pour créer la confiance et revalider ton choix
+              Pour créer la confiance et te donner l'opportunité de revalider ton choix de continuer ou non cet accompagnement à mi-parcours
             </p>
           </div>
 
