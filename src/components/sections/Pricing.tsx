@@ -6,8 +6,8 @@ export const Pricing = () => {
     "Une première séance découverte offerte",
     "6 séances individuelles de 1h30-2h (900€ de valeur)",
     "Exercices hebdomadaires dans un dossier à vie",
-    "Ton book d'outils personnalisé (40€ de valeur)",
-    "Dossier d'outils avec +5h de contenu (300€ de valeur)",
+    "Ton book d'outils personnalisé (20€ de valeur)",
+    "Dossier d'outils avec +5h de contenu (100€ de valeur)",
     "3 mois de suivi = 3 sessions de 1h30 (450€ de valeur)",
     "10 séances de coaching au total (1500€ de valeur)",
     "Accès WhatsApp illimité pendant tout l'accompagnement"
