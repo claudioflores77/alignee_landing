@@ -74,8 +74,8 @@ export const Pricing = () => {
               💳 Paiement en 2 fois possible
             </h3>
             <div className="space-y-2 text-sm md:text-base text-foreground/70">
-              <p>212,50€ au début de l'accompagnement</p>
-              <p>212,50€ à mi-parcours</p>
+              <p>215€ au début de l'accompagnement</p>
+              <p>215€ à mi-parcours</p>
             </div>
             <p className="text-xs md:text-sm text-foreground/60 italic mt-3">
               Pour créer la confiance et revalider ton choix
