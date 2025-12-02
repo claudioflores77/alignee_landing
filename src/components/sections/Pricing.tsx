@@ -60,7 +60,7 @@ export const Pricing = () => {
             {/* 🔥 VALOR POR SESIÓN */}
             <div className="bg-accent/30 p-4 md:p-6 rounded-2xl max-w-md mx-auto">
               <p className="text-sm md:text-base text-foreground/80">
-                Soit seulement <strong className="text-primary text-xl md:text-2xl block mt-1">42,50€ par séance</strong>
+                Soit seulement <strong className="text-primary text-xl md:text-2xl block mt-1">43€ par séance</strong>
               </p>
               <p className="text-xs text-foreground/60 mt-2">
                 (Au lieu de 150€/séance × 10 séances)
