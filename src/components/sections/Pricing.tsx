@@ -35,7 +35,7 @@ export const Pricing = () => {
                 Valeur réelle du programme
               </p>
               <p className="text-2xl md:text-3xl text-muted-foreground line-through mb-2">
-                1 840€
+                1 720€
               </p>
               <p className="text-xs md:text-sm text-foreground/60 italic mb-4">
                 (10 séances + dossier + book personnalisé)
@@ -44,9 +44,9 @@ export const Pricing = () => {
             
             {/* Precio oferta */}
             <div className="mb-6">
-              <p className="text-5xl md:text-7xl font-serif text-primary mb-2">425€</p>
+              <p className="text-5xl md:text-7xl font-serif text-primary mb-2">430€</p>
               <p className="text-base md:text-xl text-foreground/70 mb-4">
-                Offre de lancement : <strong>-77%</strong> pour les premières participantes
+                Offre de lancement : <strong>-75%</strong> pour les premières participantes
               </p>
             </div>
 
