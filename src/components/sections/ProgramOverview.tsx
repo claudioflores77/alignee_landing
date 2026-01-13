@@ -37,7 +37,7 @@ export const ProgramOverview = () => {
             et on fait émerger ce que tu veux vraiment à la place
           </p>
           <p className="text-base md:text-lg text-primary italic">
-            À la fin, tu repars avec :
+            À la fin de ce programme, tu repars avec :
           </p>
         </div>
 
