@@ -32,7 +32,7 @@ export const Hero = () => {
             </p>
             
             <p className="text-base md:text-lg font-light text-white/90 italic leading-relaxed px-4 md:px-0">
-              En 6 semaines, clarifies ta direction,<br />
+              En 6 modules, clarifies ta direction,<br />
               reconnectes à ta mission de vie<br />
               et réaligne toi profondément avec qui tu es<br />
               <span className="text-sm md:text-base opacity-90">
