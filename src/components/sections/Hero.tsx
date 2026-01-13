@@ -68,11 +68,6 @@ export const Hero = () => {
             >
               <a href="#contact">Je commence mon parcours digital dès maintenant – 49€</a>
             </Button>
-            
-            {/* Objeciones - COMPACTAS PARA MÓVIL */}
-            <p className="text-xs md:text-sm text-white/80 px-2">
-              ✓ Sans engagement · ✓ Gratuite · ✓ 5 places/mois
-            </p>
           </div>
         </div>
       </div>
