@@ -69,7 +69,7 @@ export const ProgramOverview = () => {
         <div className="text-center">
           <div className="inline-block bg-primary/10 px-6 md:px-8 py-3 md:py-4 rounded-full border border-primary/20">
             <p className="text-foreground/80 text-base md:text-lg">
-              <span className="text-primary font-medium">+</span> Un livret de tous les outils clés qui fonctionnent pour toi
+              <span className="text-primary font-medium">+</span> Un livret synthétique qui capte parfaitement l'essence de qui tu es
             </p>
           </div>
         </div>
