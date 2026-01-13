@@ -33,7 +33,7 @@ export const ProgramOverview = () => {
             ALIGNÉE
           </h3>
           <p className="text-base md:text-lg text-foreground/80 max-w-3xl mx-auto leading-relaxed font-medium">
-            En 6 semaines, on met des mots clairs sur ton mal-être<br />
+            En 6 modules, on met des mots clairs sur ton mal-être<br />
             et on fait émerger ce que tu veux vraiment à la place
           </p>
           <p className="text-base md:text-lg text-primary italic">
