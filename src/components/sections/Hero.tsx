@@ -66,7 +66,7 @@ export const Hero = () => {
               className="w-full md:w-auto bg-white hover:bg-white/90 text-taupe px-8 md:px-12 py-5 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium" 
               asChild
             >
-              <a href="#contact">Réserve ta séance découverte gratuite</a>
+              <a href="#contact">Je commence mon parcours digital dès maintenant – 49€</a>
             </Button>
             
             {/* Objeciones - COMPACTAS PARA MÓVIL */}
