@@ -45,16 +45,16 @@ export const Hero = () => {
           <div className="flex flex-row gap-4 md:gap-8 justify-center items-center text-xs md:text-sm pt-4">
             <div className="flex flex-col items-center">
               <span className="text-3xl md:text-5xl font-serif text-white">6</span>
-              <span className="text-white/80 uppercase tracking-wide">semaines</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <span className="text-3xl md:text-5xl font-serif text-white">10</span>
-              <span className="text-white/80 uppercase tracking-wide">séances</span>
+              <span className="text-white/80 uppercase tracking-wide">modules</span>
             </div>
             <div className="flex flex-col items-center">
               <span className="text-3xl md:text-5xl font-serif text-white">3</span>
+              <span className="text-white/80 uppercase tracking-wide">parcours</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="text-3xl md:text-5xl font-serif text-white text-center leading-tight">100%</span>
               <span className="text-white/80 uppercase tracking-wide text-center leading-tight">
-                mois<br className="md:hidden" /> de suivi
+                libre et<br className="md:hidden" /> autonome
               </span>
             </div>
           </div>
