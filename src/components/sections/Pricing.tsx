@@ -36,6 +36,13 @@ export const Pricing = () => {
               </p>
             </div>
 
+            {/* 🔥 DESCRIPTION PARCOURS */}
+            <div className="bg-accent/30 p-4 md:p-6 rounded-2xl max-w-lg mx-auto mb-6">
+              <p className="text-sm md:text-base text-foreground/80 leading-relaxed">
+                Le parcours digital contient 6 modules, incluant plus de 3H de contenu vidéo et 6 ebook à compléter. Le programme est pensé pour être complet et structurant, il te permet d'avancer en totale autonomie, module après module, même sans accompagnement individuel.
+              </p>
+            </div>
+
             {/* Valor real */}
             <div className="mb-6">
               <p className="text-xs md:text-sm text-foreground/60 uppercase tracking-wide mb-2">
@@ -54,16 +61,6 @@ export const Pricing = () => {
               <p className="text-5xl md:text-7xl font-serif text-primary mb-2">430€</p>
               <p className="text-base md:text-xl text-foreground/70 mb-4">
                 Offre de lancement : <strong>-75%</strong> pour les premières participantes
-              </p>
-            </div>
-
-            {/* 🔥 VALOR POR SESIÓN */}
-            <div className="bg-accent/30 p-4 md:p-6 rounded-2xl max-w-md mx-auto">
-              <p className="text-sm md:text-base text-foreground/80">
-                Soit seulement <strong className="text-primary text-xl md:text-2xl block mt-1">43€ par séance</strong>
-              </p>
-              <p className="text-xs text-foreground/60 mt-2">
-                (Au lieu de 150€/séance × 10 séances)
               </p>
             </div>
           </div>
