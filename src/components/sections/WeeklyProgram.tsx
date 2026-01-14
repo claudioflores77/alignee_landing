@@ -62,12 +62,6 @@ export const WeeklyProgram = () => {
             </div>)}
         </div>
 
-
-        <div className="text-center mt-16 max-w-3xl mx-auto">
-          <p className="text-lg text-foreground/70 italic leading-relaxed">
-            Parce que se réaligner, ce n'est pas un instant magique. C'est un chemin qui s'approfondit, s'intègre, et s'ancre dans l'action et dans la durée.
-          </p>
-        </div>
       </div>
     </section>;
 };
