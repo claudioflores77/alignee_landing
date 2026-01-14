@@ -62,14 +62,6 @@ export const WeeklyProgram = () => {
             </div>)}
         </div>
 
-        <div className="text-center bg-primary/5 py-12 px-8 rounded-3xl border-2 border-primary/20">
-          <p className="text-2xl md:text-3xl font-serif text-primary mb-2">
-            3 mois de suivi offerts
-          </p>
-          <p className="text-foreground/70">
-            à la fin de ton programme Alignée
-          </p>
-        </div>
 
         <div className="text-center mt-16 max-w-3xl mx-auto">
           <p className="text-lg text-foreground/70 italic leading-relaxed">
