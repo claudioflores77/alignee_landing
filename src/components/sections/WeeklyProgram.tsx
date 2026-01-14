@@ -34,7 +34,7 @@ export const WeeklyProgram = () => {
       <div className="container px-6 max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif text-foreground mb-4">
-            Le programme détaillé semaine par semaine    
+            Le programme détaillé module par module    
           </h2>
           
         </div>
