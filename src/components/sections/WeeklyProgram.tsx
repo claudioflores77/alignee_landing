@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export const WeeklyProgram = () => {
   const weeks = [{
     number: 1,
@@ -62,6 +64,16 @@ export const WeeklyProgram = () => {
             </div>)}
         </div>
 
+        {/* CTA Button */}
+        <div className="text-center pt-8">
+          <Button 
+            size="lg" 
+            className="w-full md:w-auto bg-white hover:bg-white/90 text-taupe px-8 md:px-12 py-5 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium border border-primary/20" 
+            asChild
+          >
+            <a href="#contact">Je commence mon parcours digital dès maintenant pour 49€</a>
+          </Button>
+        </div>
       </div>
     </section>;
 };
