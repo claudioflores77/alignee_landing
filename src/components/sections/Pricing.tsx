@@ -29,6 +29,13 @@ export const Pricing = () => {
           
           {/* 🔥 MOBILE: PRECIO Y URGENCIA ARRIBA */}
           <div className="text-center mb-8 md:mb-12">
+            {/* 🔥 TITRE PARCOURS */}
+            <div className="bg-primary/10 px-4 md:px-6 py-2 md:py-3 rounded-full inline-block mb-6">
+              <p className="text-sm md:text-lg text-primary font-medium">
+                ✨ Je commence avec le parcours digital 100% autonome
+              </p>
+            </div>
+
             {/* Valor real */}
             <div className="mb-6">
               <p className="text-xs md:text-sm text-foreground/60 uppercase tracking-wide mb-2">
@@ -47,13 +54,6 @@ export const Pricing = () => {
               <p className="text-5xl md:text-7xl font-serif text-primary mb-2">430€</p>
               <p className="text-base md:text-xl text-foreground/70 mb-4">
                 Offre de lancement : <strong>-75%</strong> pour les premières participantes
-              </p>
-            </div>
-
-            {/* 🔥 URGENCIA VISUAL */}
-            <div className="bg-primary/10 px-4 md:px-6 py-2 md:py-3 rounded-full inline-block mb-6">
-              <p className="text-sm md:text-lg text-primary font-medium">
-                ⚡ Plus que 5 places à ce tarif
               </p>
             </div>
 
