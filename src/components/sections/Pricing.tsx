@@ -3,14 +3,9 @@ import { Check } from "lucide-react";
 
 export const Pricing = () => {
   const included = [
-    "Une première séance découverte offerte",
-    "6 séances individuelles de 1h30-2h (900€ de valeur)",
-    "Exercices hebdomadaires dans un dossier à vie",
-    "Ton book d'outils personnalisé (20€ de valeur)",
-    "Dossier d'outils avec +5h de contenu (200€ de valeur)",
-    "3 mois de suivi = 3 sessions de 1h30 (450€ de valeur)",
-    "10 séances de coaching au total (1500€ de valeur)",
-    "Accès WhatsApp illimité pendant tout l'accompagnement"
+    "6 modules complets (vidéos + supports écrits)",
+    "Un cadre clair pour avancer en autonomie, sans te perdre",
+    "Un rythme à la fois libre et guidé, pour soutenir ton engagement dans la durée"
   ];
 
   return (
@@ -29,38 +24,17 @@ export const Pricing = () => {
           
           {/* 🔥 MOBILE: PRECIO Y URGENCIA ARRIBA */}
           <div className="text-center mb-8 md:mb-12">
-            {/* 🔥 TITRE PARCOURS */}
-            <div className="bg-primary/10 px-4 md:px-6 py-2 md:py-3 rounded-full inline-block mb-6">
-              <p className="text-sm md:text-lg text-primary font-medium">
-                ✨ Je commence avec le parcours digital 100% autonome
-              </p>
-            </div>
-
             {/* 🔥 DESCRIPTION PARCOURS */}
             <div className="bg-accent/30 p-4 md:p-6 rounded-2xl max-w-lg mx-auto mb-6">
-              <p className="text-sm md:text-base text-foreground/80 leading-relaxed">
-                Le parcours digital contient 6 modules, incluant plus de 3H de contenu vidéo et 6 ebook à compléter. Le programme est pensé pour être complet et structurant, il te permet d'avancer en totale autonomie, module après module, même sans accompagnement individuel.
+              <p className="text-sm md:text-base text-foreground/80 leading-relaxed italic">
+                ALIGNÉE est conçu comme un espace sûr, dans lequel tu peux avancer avec douceur et présence et te connecter à la femme vibrante que tu veux incarner.
               </p>
             </div>
 
-            {/* Valor real */}
+            {/* Texte d'accroche */}
             <div className="mb-6">
-              <p className="text-xs md:text-sm text-foreground/60 uppercase tracking-wide mb-2">
-                Valeur réelle du programme
-              </p>
-              <p className="text-2xl md:text-3xl text-muted-foreground line-through mb-2">
-                580€
-              </p>
-              <p className="text-xs md:text-sm text-foreground/60 uppercase tracking-wide mb-4">
-                Valeur de vente standard
-              </p>
-            </div>
-            
-            {/* Precio oferta */}
-            <div className="mb-4">
-              <p className="text-3xl md:text-4xl font-serif text-muted-foreground line-through mb-2">150€</p>
-              <p className="text-base md:text-xl text-foreground/70 mb-4">
-                Offre de lancement : <strong>-70%</strong> pour les premières participantes
+              <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-xl mx-auto">
+                Accède dès maintenant au programme ALIGNÉE en version 100% digitale et autonome pour un paiement unique de :
               </p>
             </div>
 
@@ -68,20 +42,6 @@ export const Pricing = () => {
             <div className="mb-6">
               <p className="text-5xl md:text-7xl font-serif text-primary mb-2">49€</p>
             </div>
-          </div>
-
-          {/* Paiement en 2 fois */}
-          <div className="bg-accent/20 p-4 md:p-6 rounded-2xl mb-8 md:mb-12 text-center">
-            <h3 className="text-lg md:text-xl font-serif text-foreground mb-3">
-              💳 Paiement en 2 fois possible
-            </h3>
-            <div className="space-y-2 text-sm md:text-base text-foreground/70">
-              <p>215€ au début de l'accompagnement</p>
-              <p>215€ à mi-parcours</p>
-            </div>
-            <p className="text-xs md:text-sm text-foreground/60 italic mt-3">
-              Pour créer la confiance et te donner l'opportunité de revalider ton choix de continuer ou non cet accompagnement à mi-parcours
-            </p>
           </div>
 
           {/* 🔥 CE QUI EST INCLUS - COMPACTO MÓVIL */}
@@ -102,12 +62,15 @@ export const Pricing = () => {
             </div>
           </div>
 
-          {/* 🔥 GARANTIE/SEGURIDAD */}
+          {/* 🔥 POURQUOI CE PRIX */}
           <div className="bg-primary/5 p-4 md:p-6 rounded-2xl mb-6 md:mb-8 text-center">
-            <p className="text-sm md:text-base text-foreground/70 italic">
-              💚 Ta première séance est offerte et sans engagement.<br />
-              Si on ne vibe pas ensemble, aucun problème.
-            </p>
+            <h4 className="text-lg md:text-xl font-serif text-foreground mb-4">Pourquoi ce prix ?</h4>
+            <div className="text-sm md:text-base text-foreground/70 leading-relaxed space-y-3">
+              <p>ALIGNÉE est un programme en autonomie.<br />
+              Son prix a été pensé pour être accessible, juste et cohérent avec sa nature.</p>
+              <p>Il n'inclut pas d'accompagnement individuel. Il t'offre un cadre simple, stable et soutenant pour commencer un vrai travail intérieur, dans le respect de ton rythme et de tes ressources.</p>
+              <p className="font-medium text-foreground/80">Tu vas enfin retrouver l'alignement dont tu as tant besoin dans ta vie sans te ruiner.</p>
+            </div>
           </div>
 
           {/* 🔥 CTA - FULL WIDTH MÓVIL */}
