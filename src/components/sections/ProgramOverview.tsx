@@ -27,7 +27,7 @@ export const ProgramOverview = () => {
       <div className="container px-4 md:px-6 max-w-6xl mx-auto">
         <div className="text-center mb-12 md:mb-16 space-y-4 md:space-y-6">
           <h2 className="text-2xl md:text-4xl font-serif text-foreground">
-            Pour elles, j'ai créé le programme
+            Pour toi, j'ai créé le programme
           </h2>
           <h3 className="text-4xl md:text-6xl font-serif text-primary">
             ALIGNÉE
