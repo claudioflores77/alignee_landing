@@ -24,12 +24,6 @@ export const Pricing = () => {
           
           {/* 🔥 MOBILE: PRECIO Y URGENCIA ARRIBA */}
           <div className="text-center mb-8 md:mb-12">
-            {/* 🔥 DESCRIPTION PARCOURS */}
-            <div className="bg-accent/30 p-4 md:p-6 rounded-2xl max-w-lg mx-auto mb-6">
-              <p className="text-sm md:text-base text-foreground/80 leading-relaxed italic">
-                ALIGNÉE est conçu comme un espace sûr, dans lequel tu peux avancer avec douceur et présence et te connecter à la femme vibrante que tu veux incarner.
-              </p>
-            </div>
 
             {/* Texte d'accroche */}
             <div className="mb-6">
@@ -70,6 +64,7 @@ export const Pricing = () => {
               Son prix a été pensé pour être accessible, juste et cohérent avec sa nature.</p>
               <p>Il n'inclut pas d'accompagnement individuel. Il t'offre un cadre simple, stable et soutenant pour commencer un vrai travail intérieur, dans le respect de ton rythme et de tes ressources.</p>
               <p className="font-medium text-foreground/80">Tu vas enfin retrouver l'alignement dont tu as tant besoin dans ta vie sans te ruiner.</p>
+              <p className="italic mt-4">ALIGNÉE est conçu comme un espace sûr, dans lequel tu peux avancer avec douceur et présence et te connecter à la femme vibrante que tu veux incarner.</p>
             </div>
           </div>
 
