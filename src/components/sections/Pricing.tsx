@@ -65,6 +65,8 @@ export const Pricing = () => {
               <p>Il n'inclut pas d'accompagnement individuel. Il t'offre un cadre simple, stable et soutenant pour commencer un vrai travail intérieur, dans le respect de ton rythme et de tes ressources.</p>
               <p className="font-medium text-foreground/80">Tu vas enfin retrouver l'alignement dont tu as tant besoin dans ta vie sans te ruiner.</p>
               <p className="italic mt-4">ALIGNÉE est conçu comme un espace sûr, dans lequel tu peux avancer avec douceur et présence et te connecter à la femme vibrante que tu veux incarner.</p>
+              <p className="mt-4">Si à tout moment du programme tu ressens le besoin d'être soutenue plus directement, des séances individuelles sont disponibles pour t'accompagner.</p>
+              <p>Ces options ne sont jamais obligatoires. Elles sont simplement là, si et quand tu en ressens le besoin et tu retrouveras tous les détails, au bon moment, directement dans le programme ALIGNÉE.</p>
             </div>
           </div>
 
