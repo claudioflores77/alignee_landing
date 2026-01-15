@@ -75,7 +75,7 @@ export const Pricing = () => {
               className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground px-8 md:px-12 py-5 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300" 
               asChild
             >
-              <a href="#contact">Réserve ta séance découverte gratuite</a>
+              <a href="#contact">Je commence mon parcours ALIGNÉE pour 49 €</a>
             </Button>
           </div>
         </div>
