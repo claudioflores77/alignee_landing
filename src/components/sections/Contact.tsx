@@ -43,13 +43,12 @@ export const Contact = () => {
                 asChild
               >
                 <a 
-                  href="https://calendly.com/ondaluz-contact/30min" 
+                  href="https://buy.stripe.com/28EaEY7NHaC0b0e1cKejK00" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2"
                 >
-                  <Calendar className="w-5 h-5 md:w-6 md:h-6" />
-                  Réserver ma séance gratuite
+                  Je commence mon parcours ALIGNÉE pour 49 €
                 </a>
               </Button>
 
