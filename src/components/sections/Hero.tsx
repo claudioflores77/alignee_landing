@@ -1,6 +1,6 @@
-import dancer1 from "@/assets/dancer-1.jpg";
-import dancer2 from "@/assets/dancer-2.jpg";
-import dancer3 from "@/assets/dancer-3.jpg";
+import heroPhoto1 from "@/assets/hero-photo-1.jpg";
+import heroPhoto2 from "@/assets/hero-photo-2.jpg";
+import heroPhoto3 from "@/assets/hero-photo-3.jpg";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
@@ -32,14 +32,15 @@ export const Hero = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#968B7E]">
         {/* Image Grid Background */}
-        <div className="absolute inset-0 grid grid-cols-3 gap-0 opacity-60">
-          <div className="bg-cover bg-center" style={{backgroundImage: `url(${dancer1})`}}></div>
-          <div className="bg-cover bg-center" style={{backgroundImage: `url(${dancer2})`}}></div>
-          <div className="bg-cover bg-center" style={{backgroundImage: `url(${dancer3})`}}></div>
+        <div className="absolute inset-0 grid grid-cols-3 gap-0">
+          <div className="bg-cover bg-center" style={{backgroundImage: `url(${heroPhoto1})`}}></div>
+          <div className="bg-cover bg-center" style={{backgroundImage: `url(${heroPhoto2})`}}></div>
+          <div className="bg-cover bg-center" style={{backgroundImage: `url(${heroPhoto3})`}}></div>
         </div>
         
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-[#968B7E]/50"></div>
+        {/* Filtre rosé */}
+        <div className="absolute inset-0 bg-[#D4A5A5]/40 mix-blend-multiply"></div>
+        <div className="absolute inset-0 bg-[#968B7E]/30"></div>
         
         <div className="relative z-10 container px-4 md:px-6 py-16 md:py-20 text-center max-w-4xl">
           {/* Titre principal */}
