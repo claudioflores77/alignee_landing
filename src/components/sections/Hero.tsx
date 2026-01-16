@@ -38,49 +38,51 @@ export const Hero = () => {
           <div className="bg-cover bg-center" style={{backgroundImage: `url(${heroPhoto3})`}}></div>
         </div>
         
-        {/* Filtre rosé */}
-        <div className="absolute inset-0 bg-[#D4A5A5]/40 mix-blend-multiply"></div>
-        <div className="absolute inset-0 bg-[#968B7E]/30"></div>
+        {/* Filtre rosé renforcé */}
+        <div className="absolute inset-0 bg-[#C4918A]/60 mix-blend-multiply"></div>
+        <div className="absolute inset-0 bg-[#8B7370]/50"></div>
         
         <div className="relative z-10 container px-4 md:px-6 py-16 md:py-20 text-center max-w-4xl">
           {/* Titre principal */}
-          <p className="text-5xl md:text-7xl lg:text-8xl font-poppins text-white mb-2 md:mb-4 font-semibold tracking-wide">
+          <p className="text-5xl md:text-7xl lg:text-8xl font-poppins text-white mb-2 md:mb-4 font-semibold tracking-wide drop-shadow-lg">
             ALIGNÉE
           </p>
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-poppins text-white font-light tracking-widest leading-tight mb-6 md:mb-8 uppercase">
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-poppins text-white font-light tracking-widest leading-tight mb-6 md:mb-8 uppercase drop-shadow-md">
             Deviens enfin pleinement toi
           </h1>
           
           <div className="space-y-6 md:space-y-8">
             <div className="space-y-4">
-              <p className="text-lg md:text-xl font-light text-white/95 leading-relaxed">
+              <p className="text-lg md:text-xl font-poppins font-light text-white leading-relaxed drop-shadow-md">
                 Pour la femme brillante en toi<br />
                 qui ne se reconnaît plus dans sa vie actuelle
               </p>
               
-              <p className="text-base md:text-lg font-light text-white/90 italic leading-relaxed px-4 md:px-0">
-                Un parcours 100% digital pour clarifier ta direction,<br />
-                te reconnecter à ta mission de vie<br />
-                et te réaligner profondément avec qui tu es<br />
-                <span className="text-sm md:text-base opacity-90">
-                  sans sacrifier ta stabilité ni tout ce que tu as construit jusqu'ici
-                </span>
-              </p>
+              <div className="text-base md:text-lg font-poppins font-light text-white leading-loose px-4 md:px-0 drop-shadow-md">
+                <p className="mb-2">Un parcours 100% digital pour :</p>
+                <p>clarifier ta direction,</p>
+                <p>te reconnecter à ta mission de vie</p>
+                <p>et te réaligner profondément avec qui tu es</p>
+                <p className="mt-2 text-sm md:text-base opacity-90">sans sacrifier ta stabilité</p>
+                <p className="text-sm md:text-base opacity-90">ni tout ce que tu as construit jusqu'ici</p>
+              </div>
             </div>
 
             {/* Stats */}
             <div className="flex flex-row gap-4 md:gap-8 justify-center items-center text-xs md:text-sm pt-4">
               <div className="flex flex-col items-center">
-                <span className="text-3xl md:text-5xl font-serif text-white">6</span>
-                <span className="text-white/80 uppercase tracking-wide">modules</span>
+                <span className="text-3xl md:text-5xl font-poppins font-semibold text-white drop-shadow-md">6</span>
+                <span className="text-white uppercase tracking-wide font-poppins">modules</span>
+              </div>
+              <div className="flex flex-col items-center max-w-[140px] md:max-w-none">
+                <span className="text-3xl md:text-5xl font-poppins font-semibold text-white drop-shadow-md">1</span>
+                <span className="text-white uppercase tracking-wide font-poppins text-center leading-tight">
+                  plan d'action<br />concret, clair et aligné
+                </span>
               </div>
               <div className="flex flex-col items-center">
-                <span className="text-3xl md:text-5xl font-serif text-white">3</span>
-                <span className="text-white/80 uppercase tracking-wide">parcours</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <span className="text-3xl md:text-5xl font-serif text-white text-center leading-tight">100%</span>
-                <span className="text-white/80 uppercase tracking-wide text-center leading-tight">
+                <span className="text-3xl md:text-5xl font-poppins font-semibold text-white text-center leading-tight drop-shadow-md">100%</span>
+                <span className="text-white uppercase tracking-wide text-center leading-tight font-poppins">
                   libre et<br className="md:hidden" /> autonome
                 </span>
               </div>
@@ -104,9 +106,9 @@ export const Hero = () => {
       <section className="py-16 md:py-24 bg-background">
         <div className="container px-4 md:px-6 max-w-6xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
-            <p className="text-base md:text-lg text-primary italic">
+            <h2 className="text-3xl md:text-5xl font-serif text-foreground">
               À la fin de ce programme, tu repars avec :
-            </p>
+            </h2>
           </div>
 
           {/* 4 bénéfices */}
