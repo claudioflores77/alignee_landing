@@ -17,14 +17,15 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-[#968B7E]/50"></div>
       
       <div className="relative z-10 container px-4 md:px-6 py-16 md:py-20 text-center max-w-4xl">
-        {/* 🔥 NUEVO TÍTULO - OPCIÓN B+D HÍBRIDA APROBADA */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white font-bold tracking-wide leading-tight mb-6 md:mb-8">
-          REDEVIENS ENFIN<br />
-          PLEINEMENT TOI-MÊME
+        {/* Titre principal */}
+        <p className="text-4xl md:text-6xl font-serif text-white mb-4">
+          ALIGNÉE
+        </p>
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif text-white font-bold tracking-wide leading-tight mb-6 md:mb-8">
+          DEVIENS ENFIN PLEINEMENT TOI
         </h1>
         
         <div className="space-y-6 md:space-y-8">
-          {/* 🔥 NUEVO SUBTÍTULO - COPY APROBADO */}
           <div className="space-y-4">
             <p className="text-lg md:text-xl font-light text-white/95 leading-relaxed">
               Pour la femme brillante en toi<br />
@@ -32,9 +33,9 @@ export const Hero = () => {
             </p>
             
             <p className="text-base md:text-lg font-light text-white/90 italic leading-relaxed px-4 md:px-0">
-              En 6 modules, clarifies ta direction,<br />
-              reconnectes à ta mission de vie<br />
-              et réaligne toi profondément avec qui tu es<br />
+              Un parcours 100% digital pour clarifier ta direction,<br />
+              te reconnecter à ta mission de vie<br />
+              et te réaligner profondément avec qui tu es<br />
               <span className="text-sm md:text-base opacity-90">
                 sans sacrifier ta stabilité ni tout ce que tu as construit jusqu'ici
               </span>
