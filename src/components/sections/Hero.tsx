@@ -33,8 +33,8 @@ export const Hero = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#968B7E]">
         {/* Image Grid Background */}
         <div className="absolute inset-0 grid grid-cols-3 gap-0">
-          <div className="bg-cover bg-center" style={{backgroundImage: `url(${heroPhoto1})`}}></div>
           <div className="bg-cover bg-center" style={{backgroundImage: `url(${heroPhoto2})`}}></div>
+          <div className="bg-cover bg-center" style={{backgroundImage: `url(${heroPhoto1})`}}></div>
           <div className="bg-cover bg-center" style={{backgroundImage: `url(${heroPhoto3})`}}></div>
         </div>
         
@@ -44,11 +44,11 @@ export const Hero = () => {
         
         <div className="relative z-10 container px-4 md:px-6 py-16 md:py-20 text-center max-w-4xl">
           {/* Titre principal */}
-          <p className="text-4xl md:text-6xl font-serif text-white mb-4">
+          <p className="text-5xl md:text-7xl lg:text-8xl font-poppins text-white mb-2 md:mb-4 font-semibold tracking-wide">
             ALIGNÉE
           </p>
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif text-white font-bold tracking-wide leading-tight mb-6 md:mb-8">
-            DEVIENS ENFIN PLEINEMENT TOI
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-poppins text-white font-light tracking-widest leading-tight mb-6 md:mb-8 uppercase">
+            Deviens enfin pleinement toi
           </h1>
           
           <div className="space-y-6 md:space-y-8">
