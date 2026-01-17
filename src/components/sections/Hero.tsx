@@ -44,8 +44,8 @@ export const Hero = () => {
         
         <div className="relative z-10 container px-4 md:px-6 py-16 md:py-20 text-center max-w-4xl">
           {/* Titre principal */}
-          <p className="text-5xl md:text-7xl lg:text-8xl font-poppins text-white mb-2 md:mb-4 font-semibold tracking-wide drop-shadow-lg">
-            ALIGNÉE
+          <p className="text-6xl md:text-8xl lg:text-9xl text-white mb-2 md:mb-4 drop-shadow-lg" style={{ fontFamily: 'Cookie, cursive' }}>
+            Alignée
           </p>
           <h1 className="text-xl md:text-2xl lg:text-3xl font-poppins text-white font-light tracking-widest leading-tight mb-6 md:mb-8 uppercase drop-shadow-md">
             Deviens enfin pleinement toi
@@ -74,10 +74,10 @@ export const Hero = () => {
                 <span className="text-3xl md:text-5xl font-poppins font-semibold text-white drop-shadow-md">6</span>
                 <span className="text-white uppercase tracking-wide font-poppins">modules</span>
               </div>
-              <div className="flex flex-col items-center max-w-[140px] md:max-w-none">
+              <div className="flex flex-col items-center">
                 <span className="text-3xl md:text-5xl font-poppins font-semibold text-white drop-shadow-md">1</span>
-                <span className="text-white uppercase tracking-wide font-poppins text-center leading-tight">
-                  plan d'action<br />concret, clair et aligné
+                <span className="text-white uppercase tracking-wide font-poppins text-center">
+                  plan d'action concret
                 </span>
               </div>
               <div className="flex flex-col items-center">
@@ -95,7 +95,7 @@ export const Hero = () => {
                 className="w-full md:w-auto bg-white hover:bg-white/90 text-taupe px-8 md:px-12 py-5 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium" 
                 asChild
               >
-                <a href="#contact">Je commence mon parcours digital dès maintenant pour 49€</a>
+                <a href="#contact">Je commence mon parcours ALIGNÉE pour 49€</a>
               </Button>
             </div>
           </div>
@@ -136,12 +136,23 @@ export const Hero = () => {
           </div>
 
           {/* Bonus - Livret */}
-          <div className="text-center">
+          <div className="text-center mb-8">
             <div className="inline-block bg-primary/10 px-6 md:px-8 py-3 md:py-4 rounded-full border border-primary/20">
               <p className="text-foreground/80 text-base md:text-lg">
                 <span className="text-primary font-medium">+</span> Un livret synthétique qui capte parfaitement l'essence de qui tu es
               </p>
             </div>
+          </div>
+
+          {/* CTA Button */}
+          <div className="text-center">
+            <Button 
+              size="lg" 
+              className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground px-8 md:px-12 py-5 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium" 
+              asChild
+            >
+              <a href="#contact">Je commence mon parcours ALIGNÉE pour 49€</a>
+            </Button>
           </div>
         </div>
       </section>

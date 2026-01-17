@@ -56,9 +56,9 @@ export const Pricing = () => {
             </div>
           </div>
 
-          {/* 🔥 POURQUOI CE PRIX */}
+          {/* Pour aller plus loin */}
           <div className="bg-primary/5 p-4 md:p-6 rounded-2xl mb-6 md:mb-8 text-center">
-            <h4 className="text-lg md:text-xl font-serif text-foreground mb-4">Pourquoi ce prix ?</h4>
+            <h4 className="text-xl md:text-2xl font-serif text-primary mb-4">Pour aller plus loin</h4>
             <div className="text-sm md:text-base text-foreground/70 leading-relaxed space-y-3">
               <p>ALIGNÉE est un programme en autonomie.<br />
               Son prix a été pensé pour être accessible, juste et cohérent avec sa nature.</p>
@@ -77,7 +77,7 @@ export const Pricing = () => {
               className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground px-8 md:px-12 py-5 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300" 
               asChild
             >
-              <a href="#contact">Je commence mon parcours ALIGNÉE pour 49 €</a>
+              <a href="#contact">Je commence mon parcours ALIGNÉE pour 49€</a>
             </Button>
           </div>
         </div>
