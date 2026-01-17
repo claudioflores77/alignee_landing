@@ -32,17 +32,13 @@ export const WeeklyProgram = () => {
     subtitle: "INCARNER DURABLEMENT TON ALIGNEMENT",
     description: "Ancrer tous les apprentissages pour maintenir ton alignement dans la durée."
   }];
-  return <section className="py-24 bg-gradient-to-b from-accent to-background">
+  
+  return (
+    <section className="py-16 md:py-20 bg-gradient-to-b from-accent to-background">
       <div className="container px-6 max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif text-foreground mb-4">
-            Le programme détaillé module par module    
-          </h2>
-          
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-          {weeks.map(week => <div key={week.number} className="bg-card p-8 rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300 group cursor-pointer">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          {weeks.map(week => (
+            <div key={week.number} className="bg-card p-8 rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300 group cursor-pointer">
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <span className="text-5xl font-serif text-primary group-hover:scale-110 transition-transform duration-300">
@@ -61,19 +57,21 @@ export const WeeklyProgram = () => {
                   {week.description}
                 </p>
               </div>
-            </div>)}
+            </div>
+          ))}
         </div>
 
         {/* CTA Button */}
-        <div className="text-center pt-8">
+        <div className="text-center pt-4">
           <Button 
             size="lg" 
             className="w-full md:w-auto bg-white hover:bg-white/90 text-taupe px-8 md:px-12 py-5 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium border border-primary/20" 
             asChild
           >
-            <a href="#contact">Je commence mon parcours digital dès maintenant pour 49€</a>
+            <a href="#contact">Je commence mon parcours ALIGNÉE pour 49€</a>
           </Button>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };

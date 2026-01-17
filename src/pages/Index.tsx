@@ -13,15 +13,15 @@ const Index = () => {
       <Hero />
       <ForYou />
       <WeeklyProgram />
-      <About />
-      <Approach />
       <Testimonials />
       <Pricing />
+      <About />
+      <Approach />
       <Contact />
       
       <footer className="bg-foreground/5 py-12 text-center">
         <div className="container px-6">
-          <p className="text-5xl font-serif text-primary mb-4">ALIGNÉE</p>
+          <p className="text-5xl text-primary mb-4" style={{ fontFamily: 'Cookie, cursive' }}>Alignée</p>
           <p className="text-muted-foreground italic">
             deviens enfin vraiment toi
           </p>
