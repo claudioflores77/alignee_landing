@@ -44,21 +44,21 @@ export const Hero = () => {
         
         <div className="relative z-10 container px-4 md:px-6 py-16 md:py-20 text-center max-w-4xl">
           {/* Titre principal */}
-          <p className="text-6xl md:text-8xl lg:text-9xl text-white mb-2 md:mb-4 drop-shadow-lg" style={{ fontFamily: 'Cookie, cursive' }}>
+          <p className="text-6xl md:text-8xl lg:text-9xl font-serif text-white mb-2 md:mb-4 drop-shadow-lg">
             Alignée
           </p>
           <h1 className="text-xl md:text-2xl lg:text-3xl font-poppins text-white font-light tracking-widest leading-tight mb-6 md:mb-8 uppercase drop-shadow-md">
-            Deviens enfin pleinement toi
+            Autorise-toi enfin à être pleinement toi
           </h1>
           
-          <div className="space-y-6 md:space-y-8">
+          <div className="space-y-6 md:space-y-8 max-w-md mx-auto">
             <div className="space-y-4">
               <p className="text-lg md:text-xl font-poppins font-light text-white leading-relaxed drop-shadow-md">
                 Pour la femme brillante en toi<br />
                 qui ne se reconnaît plus dans sa vie actuelle
               </p>
               
-              <div className="text-base md:text-lg font-poppins font-light text-white leading-loose px-4 md:px-0 drop-shadow-md">
+              <div className="text-base md:text-lg font-poppins font-light text-white leading-loose drop-shadow-md">
                 <p className="mb-2">Un parcours 100% digital pour :</p>
                 <p>clarifier ta direction,</p>
                 <p>te reconnecter à ta mission de vie</p>
@@ -106,9 +106,15 @@ export const Hero = () => {
       <section className="py-16 md:py-24 bg-background">
         <div className="container px-4 md:px-6 max-w-6xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-5xl font-serif text-foreground">
-              À la fin de ce programme, tu repars avec :
+          <p className="text-6xl md:text-8xl font-serif text-foreground mb-2">
+              Alignée
+            </p>
+            <h2 className="text-xl md:text-2xl font-poppins text-foreground/80 font-light tracking-widest uppercase mb-8">
+              Autorise-toi enfin à être pleinement toi
             </h2>
+            <p className="text-2xl md:text-3xl font-serif text-foreground">
+              À la fin de ce programme, tu repars avec :
+            </p>
           </div>
 
           {/* 4 bénéfices */}
