@@ -34,9 +34,16 @@ export const WeeklyProgram = () => {
   }];
   
   return (
-    <section className="py-16 md:py-20 bg-gradient-to-b from-accent to-background">
+    <section className="py-12 md:py-16 bg-gradient-to-b from-accent to-background">
       <div className="container px-6 max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        {/* Titre de la section */}
+        <div className="text-center mb-8 md:mb-10">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif text-foreground leading-relaxed max-w-4xl mx-auto">
+            Une voie plus juste et alignée avec qui tu es existe déjà. Et c'est exactement cette voie que le programme ALIGNÉE t'accompagne à la retrouver, en 6 étapes claires et structurées.
+          </h2>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           {weeks.map(week => (
             <div key={week.number} className="bg-card p-8 rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300 group cursor-pointer">
               <div className="space-y-4">
@@ -59,17 +66,6 @@ export const WeeklyProgram = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* CTA Button */}
-        <div className="text-center pt-4">
-          <Button 
-            size="lg" 
-            className="w-full md:w-auto bg-white hover:bg-white/90 text-taupe px-8 md:px-12 py-5 md:py-6 text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium border border-primary/20" 
-            asChild
-          >
-            <a href="#contact">Je commence mon parcours ALIGNÉE pour 49€</a>
-          </Button>
         </div>
       </div>
     </section>
