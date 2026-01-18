@@ -106,11 +106,11 @@ export const Hero = () => {
       <section className="py-16 md:py-24 bg-background">
         <div className="container px-4 md:px-6 max-w-6xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
-          <p className="text-6xl md:text-8xl font-serif text-foreground mb-2">
-              Alignée
+            <p className="text-4xl md:text-6xl font-serif text-foreground mb-4">
+              Prête à commencer ?
             </p>
-            <h2 className="text-xl md:text-2xl font-poppins text-foreground/80 font-light tracking-widest uppercase mb-8">
-              Autorise-toi enfin à être pleinement toi
+            <h2 className="text-xl md:text-2xl font-poppins text-foreground/80 font-light tracking-widest mb-8">
+              Un investissement dans toi-même qui change tout
             </h2>
             <p className="text-2xl md:text-3xl font-serif text-foreground">
               À la fin de ce programme, tu repars avec :
